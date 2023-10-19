@@ -5,7 +5,7 @@ function separaNumeros(...numeros) {
     const numerosEnteros = [];
     for (var i=0;i<numeros.length;i++) {
     //Si el nuemro es entero directamente lo añade.
-      if (Number.isInteger(numeros[i])) {
+      if (Number.isInteger(numeros[i])) { 
         numerosEnteros.push(numeros[i]);
       } 
     //Si el numero es una cadena de texto lo transforma en un entero.

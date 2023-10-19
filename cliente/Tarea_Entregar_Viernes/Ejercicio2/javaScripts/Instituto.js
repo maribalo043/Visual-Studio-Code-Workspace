@@ -7,7 +7,7 @@ export default class Instituto{
       }
     
       obtenerCodigo() {
-        return this.codigoInstituto;
+        return this.codigoInstituto; 
       }
     
       obtenerTotalAlumnos() {

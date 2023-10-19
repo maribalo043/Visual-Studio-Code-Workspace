@@ -8,6 +8,6 @@ import Instituto from "../javaScripts/Instituto.js";
   miInstituto.agregarGrupoFormado(nuevoGrupo);
   miInstituto.agregarGrupo("4 ESO", 35);
   
-  console.log("Código del Instituto:", miInstituto.obtenerCodigo());
+  console.log("Código del Instituto:", miInstituto.obtenerCodigo()); 
   console.log("Número total de alumnos:", miInstituto.obtenerTotalAlumnos());
 
